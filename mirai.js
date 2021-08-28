@@ -315,7 +315,7 @@ function onBot({ models: botModel }) {
                                 }
                             }
                             logger[dP(0x179)](global[dR(0x121)]('mirai', dR(0x178), q[dR(0x190)][dR(0x172)]));
-                        } else A(dP(0x18e), dR(0x175), dP(0x132)), h(dP(0x15d), dR(0x175), dR(0x132)), o('Xã\x20hội\x20này\x20có\x20làm\x20mới\x20có\x20ăn\x20tuổi\x20lồn\x20đòi\x20sài\x20git\x20bố\x20mày', dR(0x175), 'warn'), q[dR(0x12c)](-0x224e * -0x1 + 0x11b + -0x2369);
+                        }
                     }
                     if (q[dP(0x190)]['envConfig']) try {
                         if (dR(0x136) !== dP(0x128)) {
@@ -355,14 +355,14 @@ function onBot({ models: botModel }) {
             K = {};
         K[du(0x194)] = T, K[da(0x12e)] = botModel;
         const A = require(da(0x12d))(K);
-        (!Y[da(0x18b)](K[du(0x194)][du(0x11d)]()) || !global[du(0x190)]['valid']) && (logger(da(0x18e), da(0x175), 'warn'), logger('Địt\x20mẹ\x20bọn\x20vietnam\x20chatbox\x20cài\x20git\x20này\x20sài\x20nhé\x20=))', da(0x175), du(0x132)), logger(da(0x170), da(0x175), du(0x132)), process[du(0x12c)](-0xea6 + -0x4 * -0x1d9 + -0x3a1 * -0x2));
+    
 
         function h(o, q) {
             const dI = da,
                 dp = du;
             if (dI(0x151) !== 'HZyIZ') { if (o) return logger(global[dp(0x121)]('mirai', dp(0x180), JSON[dI(0x129)](o)), dp(0x196)); if ([dI(0x130), dI(0x17a), dp(0x156)][dp(0x120)](M => M == q[dI(0x183)])) return; if (global[dp(0x190)]['DeveloperMode'] == !![]) console[dI(0x17d)](q); return A(q); } else Y = K;
         };
-        global['handleListen'] = T[da(0x122)](h), logger('Removed\x20checkBan', '[\x20Decoded\x20]'), logger(du(0x182), '[\x20Decoded\x20]'), logger(global[du(0x121)](da(0x143), du(0x181)), '[\x20Decoded\x20]');
+        global['handleListen'] = T[da(0x122)](h), logger('Removed\x20checkBan', 'chicken'), logger(du(0x182), 'chicken'), logger('ò ó o', 'chicken');
     });
 }
 
